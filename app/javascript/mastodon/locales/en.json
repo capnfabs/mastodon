@@ -170,6 +170,7 @@
   "getting_started.heading": "Getting started",
   "getting_started.invite": "Invite people",
   "getting_started.open_source_notice": "Mastodon is open source software. You can contribute or report issues on GitHub at {github}.",
+  "getting_started.open_source_notice_mod": "{site_title} is based on software called {mastodon}, and customized for the community 💝 If there’s something you’d like to change, toot at {admin}.",
   "getting_started.security": "Account settings",
   "getting_started.terms": "Terms of service",
   "hashtag.column_header.tag_mode.all": "and {additional}",

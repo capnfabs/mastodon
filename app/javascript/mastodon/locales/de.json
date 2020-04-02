@@ -170,6 +170,7 @@
   "getting_started.heading": "Erste Schritte",
   "getting_started.invite": "Leute einladen",
   "getting_started.open_source_notice": "Mastodon ist quelloffene Software. Du kannst auf GitHub unter {github} dazu beitragen oder Probleme melden.",
+  "getting_started.open_source_notice_mod": "{site_title} ist auf Software namens {mastodon} basiert und ist für die Community angepasst 💝 Wenn du etwas ändern möchten, tröt an {admin}.",
   "getting_started.security": "Konto & Sicherheit",
   "getting_started.terms": "Nutzungsbedingungen",
   "hashtag.column_header.tag_mode.all": "und {additional}",
