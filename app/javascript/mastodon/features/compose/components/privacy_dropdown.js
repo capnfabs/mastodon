@@ -10,12 +10,8 @@ import classNames from 'classnames';
 import Icon from 'mastodon/components/icon';
 
 const messages = defineMessages({
-  public_short: { id: 'privacy.public.short', defaultMessage: 'Public' },
-  public_long: { id: 'privacy.public.long', defaultMessage: 'Post to public timelines' },
-  unlisted_short: { id: 'privacy.unlisted.short', defaultMessage: 'Unlisted' },
-  unlisted_long: { id: 'privacy.unlisted.long', defaultMessage: 'Do not show in public timelines' },
-  private_short: { id: 'privacy.private.short', defaultMessage: 'Followers-only' },
-  private_long: { id: 'privacy.private.long', defaultMessage: 'Post to followers only' },
+  public_short: { id: 'privacy.public.short', defaultMessage: 'Group' },
+  public_long: { id: 'privacy.public.long', defaultMessage: 'Post to everyone on laundromat.me' },
   direct_short: { id: 'privacy.direct.short', defaultMessage: 'Direct' },
   direct_long: { id: 'privacy.direct.long', defaultMessage: 'Post to mentioned users only' },
   change_privacy: { id: 'privacy.change', defaultMessage: 'Adjust status privacy' },
@@ -248,9 +244,7 @@ class PrivacyDropdown extends React.PureComponent {
     const { intl: { formatMessage } } = this.props;
 
     this.options = [
-      { icon: 'globe', value: 'public', text: formatMessage(messages.public_short), meta: formatMessage(messages.public_long) },
-      { icon: 'unlock', value: 'unlisted', text: formatMessage(messages.unlisted_short), meta: formatMessage(messages.unlisted_long) },
-      { icon: 'lock', value: 'private', text: formatMessage(messages.private_short), meta: formatMessage(messages.private_long) },
+      { icon: 'group', value: 'public', text: formatMessage(messages.public_short), meta: formatMessage(messages.public_long) },
       { icon: 'envelope', value: 'direct', text: formatMessage(messages.direct_short), meta: formatMessage(messages.direct_long) },
     ];
   }
